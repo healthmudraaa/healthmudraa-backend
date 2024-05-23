@@ -36,7 +36,7 @@ mongoose
   .connect(process.env.MONGODB_URL)
   .then(() => {
     app.listen(8080, () =>
-      console.log("connected to database && server is live at port 5000")
+      console.log("connected to database && server is live at port 8080")
     );
   })
   .catch((error) => console.log(error));
